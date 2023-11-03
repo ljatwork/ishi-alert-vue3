@@ -1,10 +1,10 @@
 import { createApp, App } from "vue";
-import { IshiDialog } from "@/components";
+import { IshiAlert } from "@/components";
 // Create a Vue 3 plugin
-const IshiDialogPlugin = {
+const IshiAlertPlugin = {
   install: (app: App) => {
     // Register the Dialog component globally
-    app.component("IshiDialog", IshiDialog);
+    app.component("IshiAlert", IshiAlert);
   },
 };
-export default IshiDialogPlugin;
+export default IshiAlertPlugin;

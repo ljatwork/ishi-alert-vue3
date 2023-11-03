@@ -101,13 +101,13 @@ this.confirmed = await dialog
       </v-row>
     </v-card-item>
   </v-card>
-  <IshiDialog />
+  <IshiAlert />
   <v-row align="center" justify="center"> </v-row>
 </template>
 
 <script setup>
 import dialog from "@/utils/dialog";
-import { IshiDialog } from "@/components";
+import { IshiAlert } from "@/components";
 import { ref } from "vue";
 
 const showAlertTitleDialog = async () => {

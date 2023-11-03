@@ -1,1 +1,1 @@
-export { default as IshiDialog } from "@/components/IshiDialog.vue";
+export { default as IshiAlert } from "@/components/IshiAlert.vue";
